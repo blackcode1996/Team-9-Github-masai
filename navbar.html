@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style type="text/css">
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: "Poppins", Arial, sans-serif;
+            background: #fff;
+            font-size: 16px;
+            line-height: 1.8;
+            font-weight: 400;
+            color: #999999;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-between;
+            background-color: #1C2838;
+            height: 3.8rem;
+            align-items: center;
+            box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+            margin: 5px 10px;
+            border-radius: 15px;
+        }
+
+        div:nth-child(1){
+            font-size: 1.6rem;
+            padding-left: 1rem;
+        }
+
+        div:nth-child(2){
+            margin-right: 2rem;
+        }
+        
+        ul li{
+            list-style-type: none;
+            display: inline-block;
+        }
+
+        ul li > a{
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+            padding: 8px 16px;
+            transition: 0.6s ease;
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        a:hover{
+        color: black;
+        background-color: white;
+        border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div>Reebok</div>
+        <div>
+            <ul>
+                <li><a href="mens.html">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signupPage.html">Signup</a></li>
+            </ul>
+        </div>
+    </nav>
+</body>
+</html>
